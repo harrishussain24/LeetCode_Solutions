@@ -1,4 +1,4 @@
-# LeetCode Problem 001: Two Sum
+# LeetCode Problem 01: Two Sum
 
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -34,3 +34,17 @@ Constraints:
 Only one valid answer exists. 
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
+
+
+## ✅ Solution
+
+### 🔹 C++ Implementation (`solution.cpp`)
+
+This solution uses a hash map to store each number and its index while iterating through the array. For every element, it checks if the complement (i.e., `target - current number`) exists in the map.
+
+- ✅ Efficient one-pass solution.
+- ✅ Time complexity: O(n)
+- ✅ Space complexity: O(n)
+- ✅ Meets the problem constraints.
+
+If the complement is found, the indices of both numbers are returned immediately.
