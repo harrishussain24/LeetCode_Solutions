@@ -1,4 +1,4 @@
-# LeetCode Problem 01: Palindrome Number
+# LeetCode Problem 02: Palindrome Number
 
 Given an integer x, return true if x is a palindrome, and false otherwise.
 
